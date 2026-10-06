@@ -3,7 +3,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 
 const FILE = 'src/data/profile.json';
-const REQUIRED = ['name', 'tagline', 'roll', 'department', 'year', 'email', 'gpa'];
+const REQUIRED = ['name', 'tagline', 'roll', 'department', 'year', 'email', 'cgpa'];
 const inCI = process.env.GITHUB_ACTIONS === 'true';
 const errors = [];
 

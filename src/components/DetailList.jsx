@@ -29,9 +29,9 @@ export default function DetailList({ profile }) {
         <dd>{profile.department}</dd>
       </div>
       <div className="detail">
-        <dt>GPA</dt>
+        <dt>CGPA</dt>
         <dd>
-          <span className="gpa numeric">{profile.gpa}</span>
+          <span className="gpa numeric">{profile.cgpa}</span>
         </dd>
       </div>
       <div className="detail detail-wide">
